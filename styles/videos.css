@@ -1,0 +1,46 @@
+.vedio-section-style {
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-container {
+    text-align: center;
+    /* background-color: white; */
+    background-color: rgb(122, 74, 218);
+    border-radius: 15px;
+}
+
+.video-card {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 180px;
+}
+
+.video-card span {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.video-card p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.active a {
+    color: rgb(252, 197, 19);
+}
